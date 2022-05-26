@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: etf-webapp
+Implementation-Vendor: interactive instruments GmbH
+Implementation-Vendor-Id: de.interactive_instruments
+Implementation-Version: 2.1.0-SNAPSHOT
+Built-By: jon
+Build-Host: AGC
+Build-JDK: 11.0.9.1
+Build-Time: 20210901T0915
+Source-Compatibility: 11
+Target-Compatibility: 11
+
