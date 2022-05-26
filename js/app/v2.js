@@ -75,7 +75,9 @@ define(['toastr'], function (toastr) {
 
     function unexpectedError(error) {
         console.error(error);
-        toastr.error("An internal error occurred.", "Internal error", {timeOut: 0, extendedTimeOut: 0});
+        toastr.error("An internal error occurred. " +
+            "Please check if the server log files contain further information.",
+            "Internal error", {timeOut: 0, extendedTimeOut: 0});
         if (error === null) {
             throw new Error("Unexpected error");
         }else if( (typeof error === 'function') || (typeof error === 'object') ) {
